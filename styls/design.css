@@ -97,8 +97,9 @@ margin-bottom: 45px;
 /* development Design */
 .development{
   text-align: center;
-  margin: auto; 
-  background-color: rgba(255, 255, 255, 1);
+  margin: 80px 47px 47px 47px; 
+  /* margin: auto;  */
+ 
 }
 .development-title{
   font-size: 32px;
@@ -120,6 +121,7 @@ flex-direction: column;
 align-items: center;
 padding: 0px;
 margin: 0px 10px;
+
 }
 
 .uper-development{
@@ -174,4 +176,45 @@ margin-bottom: 10px;
 }
 .under-development-image{
   margin-right: 35px;
+}
+/* inspiration sector */
+.inspiration{
+text-align: center;
+}
+.inspiration-video{
+  border-radius: 16px;
+  border-color: black;
+}
+.inspiration-subtitle{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin: auto;
+margin-bottom: 80px;
+width: 852px;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+
+}
+.box-video{
+  width: 1140px;
+  height: 614px; 
+display: flex;
+flex-direction: column;
+padding: 32px;
+margin: auto;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+margin-top: 48px;
+}
+.inspiration-video{
+margin: auto;
+border-radius: 16px;
+align-items: center
+
 }
