@@ -97,7 +97,7 @@ margin-bottom: 45px;
 /* development Design */
 .development{
   text-align: center;
-  margin: 80px 47px 47px 47px; 
+  margin: auto; 
   background-color: rgba(255, 255, 255, 1);
 }
 .development-title{
