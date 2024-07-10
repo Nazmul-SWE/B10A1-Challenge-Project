@@ -182,8 +182,9 @@ margin-bottom: 10px;
 text-align: center;
 }
 .inspiration-video{
+  border: 2px solid ;
   border-radius: 16px;
-  border-color: black;
+  border-color: navy;
 }
 .inspiration-subtitle{
   color: rgb(13, 19, 33);
@@ -305,3 +306,125 @@ margin-bottom: 24px;
 .image-item{
   padding: 55px 24px 55px 40px;
 }
+/* Footer design */
+.support{
+  background-image: url('../assets/handshake.jpg');
+  width: 1140px;
+  height: 313px;
+  border-radius: 16px;
+  margin: auto;
+  /* Auto layout */
+display: flex;
+flex-direction: column;
+background-size: cover;
+margin-top: 49px;
+}
+.sub-support{
+  width: 1044px;
+height: 185px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+.sub-support-title{
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+margin-top: 64px;
+}
+.sub-support-subtitle{
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+margin-top: 16px;
+margin-bottom: 24px;
+}
+.form-design1{
+  width: 548px;
+  height: 57px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 19px 20px 19px 20px;
+  box-sizing: border-box;
+border: none;
+border-radius: 8px;
+margin-right: 16px;
+background: rgb(255, 255, 255);
+}
+.form-design2{
+  width: 120px;
+height: 57px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+border-radius: 8px;
+border: none;
+background: rgb(255, 255, 255);
+
+}
+.form-position{
+  width: 684px;
+height: 57px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+margin-bottom: 64px;
+}
+
+/* last-part-outside */
+.last-part-outside{
+width: 1640px;
+height: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  margin-top: 80px;
+
+
+}
+.last-part-inside{
+  width: 1140px;
+height: 36px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+text-align: left;
+}
+.last-part-inside-text{
+  width: 456px;
+height: 23px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+margin: auto;
+}
+.last-part-intside-image{
+  width: 157.01px;
+height: 36px;
+display: flex;
+flex-direction: row;
+text-align: right;
+}
+.image{
+  margin-right: 24px;
+}
+
+  
